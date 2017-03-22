@@ -132,7 +132,7 @@ To remove long-term backup retention backups from the vault, see [Delete long-te
     A: No, not currently.
 13. Q: Is it possible to have multiple Schedules (Daily, Weekly, Monthly, Yearly) within a SQL Retention Policy.
 
-    A: No, this is only available for Virtal Machine backups at this time.
+    A: No, this is only available for Virtual Machine backups at this time.
 14. Q. What if we set up long-term backup retention on a database that is an active geo-replication secondary?
 
     A: Currently we don't take backups on replicas, and therefore, there is no option for long-term backup retention on secondaries. However, it is important for a customer to set up long-term backup retention on an active geo-replication secondary for these reasons:
